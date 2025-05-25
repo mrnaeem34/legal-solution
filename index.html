@@ -1,19 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Legal solution for justice</title>
+    <!-- font awsome kit -->
+    <script src="https://kit.fontawesome.com/30b57e2b03.js" crossorigin="anonymous"></script>
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- daisyui cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.24/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .font-poppins {
+            font-family: "Poppins", sans-serif;
+        }
+
+        .eb-garamond {
+            font-family: "EB Garamond", serif;
+        }
+    </style>
 </head>
+
 <body>
-    <header>
-          
+    <header class="md:container mx-auto">
+        <!-- nav section -->
+        <nav>
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </div>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                            <li><a>Home </a></li>
+                            <li><a>Services <img class="h-6" src="images/greater-than-symbol.png" alt=""></a></li>
+                            <li><a>Cases <img class="h-6" src="images/greater-than-symbol.png" alt=""></a></li>
+                            <li><a>Blog <img class="h-6" src="images/greater-than-symbol.png" alt=""></a></li>
+                            <li><a>Contact Us <img class="h-6" src="images/greater-than-symbol.png" alt=""></a></li>
+                        </ul>
+                    </div>
+                    <img src="images/logo2.png" alt="">
+                </div>
+                <div class="navbar-center hidden lg:flex font-poppins font-normal text-base text-[#707070]">
+                    <ul class="menu menu-horizontal px-1">
+                        <li><a>Home </a></li>
+                        <li><a>Services <img class="h-6" src="images/greater-than-symbol.png" alt=""></a></li>
+                        <li><a>Cases <img class="h-6" src="images/greater-than-symbol.png" alt=""></a></li>
+                        <li><a>Blog <img class="h-6" src="images/greater-than-symbol.png" alt=""></a></li>
+                        <li><a>Contact Us <img class="h-6" src="images/greater-than-symbol.png" alt=""></a></li>
+                    </ul>
+                </div>
+                <div class="navbar-end">
+                    <a class="btn bg-[#B68C5A] text-white font-poppins lg:font-mediumF lg:text-base ">Free
+                        Consultation</a>
+                </div>
+            </div>
+        </nav>
+        <!-- hero banner -->
+        <div class="hero min-h-[550px]" style="background-image: url(images/banner.png);">
+
+            <div class="hero-content text-neutral-content text-center">
+                <div class="max-w-md">
+                    <h1 class="eb-garamond mb-5 text-5xl font-extrabold">We Provide Effective Legal Solutions</h1>
+                    <p class="mb-5 font-poppins text-sm font-normal">
+                        Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
+                        quasi. In deleniti eaque aut repudiandae et a id nisi.
+                    </p>
+                    <div class="lg:flex">
+                        <div>
+                        <input type="text" placeholder="Search Your Service"
+                            class="input input-bordered input-success w-full max-w-xs" />
+                    </div>
+                    <div>
+                        <button class="btn bg-[#B68C5A] text-white font-poppins lg:font-mediumF lg:text-base ml-4 w-[150px]">Search</button>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </header>
-    <main>
+    <main class="md:container mx-auto">
 
     </main>
     <footer>
 
     </footer>
 </body>
+
 </html>
